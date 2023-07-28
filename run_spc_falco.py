@@ -24,7 +24,7 @@ falco_dir = Path(os.path.dirname(falco.__file__))
 roman_dir = Path(os.path.dirname(falco_dir))/'roman'
 flatmap_dir = roman_dir/'flatmaps'
 
-import misc
+import misc 
 from imshows import *
 
 import falco_spc_wfov_825_mp
@@ -32,7 +32,7 @@ import phase_retrieval as pr
 
 # Initialize the model parameters
 reload(falco_spc_wfov_825_mp)
-mp = falco_spc_wfov_825_mp.setup_mp(Nitr=30, estimator='perfect')
+mp = falco_spc_wfov_825_mp.setup_mp(Nitr=30, estimator='pwp-bp')
 mp.runLabel = f'spc_wfov_825_{mp.Nitr}itr_{mp.estimator}'
 print(mp.runLabel)
 

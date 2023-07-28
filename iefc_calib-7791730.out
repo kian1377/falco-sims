@@ -1,0 +1,305 @@
+<IPython.core.display.HTML object>
+<IPython.core.display.HTML object>
+<IPython.core.display.HTML object>
+<IPython.core.display.HTML object>
+/home/u21/kianmilani/Documents/falco-python/falco/config
+Figure(500x500)
+hlc_575_30itr_pwp-bp
+Figure(1250x500)
+Figure(1250x500)
+Running idealized phase retrieval ...
+Figure(1250x500)
+Figure(1250x500)
+Figure(500x500)
+ Using 1 discrete wavelength(s) in each of 1 sub-bandpasses over a 1.0% total bandpass 
+
+Sub-bandpasses are centered at wavelengths [nm]:	 [575.]
+  Influence function padded from 84 to 84 points for A.S. propagation.
+Computing datacube of DM influence functions... done.
+  Influence function padded from 84 to 84 points for A.S. propagation.
+Computing datacube of DM influence functions... done.
+
+Beginning Trial 1 of Series 1.
+
+DM 1-to-2 Fresnel number (using radius) = 932.0391304347827
+Iteration: 0 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.52% 	at separation = (-7.0, 0.0) lambda0/D.
+Computing control Jacobian matrices in parallel...done.
+Elapsed: 31.169997692108154
+Weeding out weak actuators from the control Jacobian...
+  DM1: 1775/2304 (77.04%) actuators kept for Jacobian
+  DM2: 1782/2304 (77.34%) actuators kept for Jacobian
+Estimating electric field with batch process estimation ...
+Wavelength: 0/0 ... 
+Mode: 0/0 ... 
+Measured unprobed Inorm (Corr / Score): 3.00e-05 	3.25e-05
+Chosen probe intensity: 5.82e-05
+Actual Probe 0+ Contrast is: 3.29e-05
+Actual Probe 0- Contrast is: 3.62e-05
+Actual Probe 1+ Contrast is: 3.34e-05
+Actual Probe 1- Contrast is: 3.61e-05
+Actual Probe 2+ Contrast is: 3.36e-05
+/home/u21/kianmilani/Documents/falco-python/falco/plot.py:386: RuntimeWarning: divide by zero encountered in log10
+  return np.log10(array)
+Actual Probe 2- Contrast is: 3.31e-05
+*** Mean measured Inorm for probe #0  =	5.138e-06
+*** Mean measured Inorm for probe #1  =	5.581e-06
+*** Mean measured Inorm for probe #2  =	3.903e-06
+194 of 730 pixels were given zero probe amplitude.
+Completed pairwise probing estimation.
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		1.54e-03	7.55e-04	1.44e-04	1.80e-05	8.10e-06	6.44e-06	6.29e-06	6.44e-06	
+Model-based grid search expects log10reg, = -3.0,	 dmfac = 0.50,	 6.29e-06 normalized intensity.
+ DM1 P-V in volts: 23.183
+ DM2 P-V in volts: 24.897
+RMS surface of DM1 = 2.0 nm
+RMS surface of DM2 = 2.3 nm
+Previous Measured NI:			 3.00e-05 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_pwp-bp_snippet.pkl  ...done.
+
+Iteration: 1 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.51% 	at separation = (-7.0, 0.0) lambda0/D.
+Computing control Jacobian matrices in parallel...done.
+Elapsed: 24.720546007156372
+Estimating electric field with batch process estimation ...
+Wavelength: 0/0 ... 
+Mode: 0/0 ... 
+Measured unprobed Inorm (Corr / Score): 1.90e-05 	2.09e-05
+Chosen probe intensity: 5.51e-05
+Actual Probe 0+ Contrast is: 2.18e-05
+Actual Probe 0- Contrast is: 2.41e-05
+Actual Probe 1+ Contrast is: 2.27e-05
+Actual Probe 1- Contrast is: 2.39e-05
+Actual Probe 2+ Contrast is: 2.24e-05
+Actual Probe 2- Contrast is: 2.12e-05
+*** Mean measured Inorm for probe #0  =	4.514e-06
+*** Mean measured Inorm for probe #1  =	5.112e-06
+*** Mean measured Inorm for probe #2  =	3.382e-06
+173 of 730 pixels were given zero probe amplitude.
+Completed pairwise probing estimation.
+Complex projection of deltaE is 0.90    for subband 0/0
+Complex correlation of deltaE is 0.59    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		1.38e-03	1.17e-03	4.04e-04	6.70e-05	1.84e-05	1.36e-05	1.32e-05	1.33e-05	
+Model-based grid search expects log10reg, = -3.0,	 dmfac = 0.50,	 1.32e-05 normalized intensity.
+ DM1 P-V in volts: 36.213
+ DM2 P-V in volts: 40.142
+RMS surface of DM1 = 3.5 nm
+RMS surface of DM2 = 3.9 nm
+Previous Measured NI:			 1.90e-05 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_pwp-bp_snippet.pkl  ...done.
+
+Iteration: 2 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.31% 	at separation = (-7.0, 0.0) lambda0/D.
+Computing control Jacobian matrices in parallel...done.
+Elapsed: 24.426241636276245
+Estimating electric field with batch process estimation ...
+Wavelength: 0/0 ... 
+Mode: 0/0 ... 
+Measured unprobed Inorm (Corr / Score): 1.42e-05 	1.58e-05
+Chosen probe intensity: 5.58e-05
+Actual Probe 0+ Contrast is: 1.75e-05
+Actual Probe 0- Contrast is: 1.88e-05
+Actual Probe 1+ Contrast is: 1.86e-05
+Actual Probe 1- Contrast is: 1.83e-05
+Actual Probe 2+ Contrast is: 1.77e-05
+Actual Probe 2- Contrast is: 1.61e-05
+*** Mean measured Inorm for probe #0  =	4.524e-06
+*** Mean measured Inorm for probe #1  =	5.123e-06
+*** Mean measured Inorm for probe #2  =	3.228e-06
+145 of 730 pixels were given zero probe amplitude.
+Completed pairwise probing estimation.
+Complex projection of deltaE is 0.21    for subband 0/0
+Complex correlation of deltaE is 0.05    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		9.97e-04	5.10e-04	1.10e-04	2.45e-05	1.60e-05	1.29e-05	1.29e-05	1.29e-05	
+Model-based grid search expects log10reg, = -3.0,	 dmfac = 0.50,	 1.29e-05 normalized intensity.
+ DM1 P-V in volts: 41.197
+ DM2 P-V in volts: 42.097
+RMS surface of DM1 = 4.0 nm
+RMS surface of DM2 = 4.4 nm
+Previous Measured NI:			 1.42e-05 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_pwp-bp_snippet.pkl  ...done.
+
+Iteration: 3 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.24% 	at separation = (-7.0, 0.0) lambda0/D.
+Computing control Jacobian matrices in parallel...done.
+Elapsed: 23.767456769943237
+Estimating electric field with batch process estimation ...
+Wavelength: 0/0 ... 
+Mode: 0/0 ... 
+Measured unprobed Inorm (Corr / Score): 1.10e-05 	1.22e-05
+Chosen probe intensity: 5.53e-05
+Actual Probe 0+ Contrast is: 1.44e-05
+Actual Probe 0- Contrast is: 1.47e-05
+Actual Probe 1+ Contrast is: 1.55e-05
+Actual Probe 1- Contrast is: 1.42e-05
+Actual Probe 2+ Contrast is: 1.43e-05
+Actual Probe 2- Contrast is: 1.27e-05
+*** Mean measured Inorm for probe #0  =	4.153e-06
+*** Mean measured Inorm for probe #1  =	4.749e-06
+*** Mean measured Inorm for probe #2  =	3.122e-06
+151 of 730 pixels were given zero probe amplitude.
+Completed pairwise probing estimation.
+Complex projection of deltaE is 0.64    for subband 0/0
+Complex correlation of deltaE is 0.12    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		1.44e-03	7.94e-04	2.22e-04	3.31e-05	8.92e-06	6.58e-06	6.42e-06	6.47e-06	
+Model-based grid search expects log10reg, = -3.0,	 dmfac = 0.50,	 6.42e-06 normalized intensity.
+ DM1 P-V in volts: 49.649
+ DM2 P-V in volts: 47.373
+RMS surface of DM1 = 4.4 nm
+RMS surface of DM2 = 4.9 nm
+Previous Measured NI:			 1.10e-05 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_pwp-bp_snippet.pkl  ...done.
+
+Iteration: 4 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.23% 	at separation = (-7.0, 0.0) lambda0/D.
+Computing control Jacobian matrices in parallel...done.
+Elapsed: 24.735320329666138
+Estimating electric field with batch process estimation ...
+Wavelength: 0/0 ... 
+Mode: 0/0 ... 
+Measured unprobed Inorm (Corr / Score): 9.39e-06 	1.05e-05
+Chosen probe intensity: 5.69e-05
+Actual Probe 0+ Contrast is: 1.31e-05
+Actual Probe 0- Contrast is: 1.31e-05
+Actual Probe 1+ Contrast is: 1.42e-05
+Actual Probe 1- Contrast is: 1.27e-05
+Actual Probe 2+ Contrast is: 1.28e-05
+Actual Probe 2- Contrast is: 1.13e-05
+*** Mean measured Inorm for probe #0  =	4.261e-06
+*** Mean measured Inorm for probe #1  =	4.888e-06
+*** Mean measured Inorm for probe #2  =	3.180e-06
+128 of 730 pixels were given zero probe amplitude.
+Completed pairwise probing estimation.
+Complex projection of deltaE is 0.46    for subband 0/0
+Complex correlation of deltaE is 0.10    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		1.24e-03	9.03e-04	4.16e-04	7.29e-05	1.29e-05	6.24e-06	5.54e-06	5.53e-06	
+Model-based grid search expects log10reg, = -2.5,	 dmfac = 0.50,	 5.53e-06 normalized intensity.
+ DM1 P-V in volts: 51.458
+ DM2 P-V in volts: 50.661
+RMS surface of DM1 = 4.7 nm
+RMS surface of DM2 = 5.2 nm
+Previous Measured NI:			 9.39e-06 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_pwp-bp_snippet.pkl  ...done.
+
+Iteration: 5 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.17% 	at separation = (-7.0, 0.0) lambda0/D.
+Computing control Jacobian matrices in parallel...done.
+Elapsed: 24.791380643844604
+Estimating electric field with batch process estimation ...
+Wavelength: 0/0 ... 
+Mode: 0/0 ... 
+Measured unprobed Inorm (Corr / Score): 8.46e-06 	9.41e-06
+Chosen probe intensity: 5.69e-05
+Actual Probe 0+ Contrast is: 1.23e-05
+Actual Probe 0- Contrast is: 1.21e-05
+Actual Probe 1+ Contrast is: 1.34e-05
+Actual Probe 1- Contrast is: 1.18e-05
+Actual Probe 2+ Contrast is: 1.18e-05
+Actual Probe 2- Contrast is: 1.04e-05
+*** Mean measured Inorm for probe #0  =	4.297e-06
+*** Mean measured Inorm for probe #1  =	4.930e-06
+*** Mean measured Inorm for probe #2  =	3.176e-06
+114 of 730 pixels were given zero probe amplitude.
+Completed pairwise probing estimation.
+Complex projection of deltaE is 6.17    for subband 0/0
+Complex correlation of deltaE is 0.57    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		1.13e-03	9.66e-04	2.48e-04	4.16e-05	1.14e-05	5.31e-06	4.54e-06	4.49e-06	
+Model-based grid search expects log10reg, = -2.5,	 dmfac = 0.50,	 4.49e-06 normalized intensity.
+ DM1 P-V in volts: 48.202
+ DM2 P-V in volts: 51.461
+RMS surface of DM1 = 4.6 nm
+RMS surface of DM2 = 5.1 nm
+Previous Measured NI:			 8.46e-06 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_pwp-bp_snippet.pkl  ...done.
+
+Iteration: 6 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.19% 	at separation = (-7.0, 0.0) lambda0/D.
+Computing control Jacobian matrices in parallel...done.
+Elapsed: 24.664204597473145
+Estimating electric field with batch process estimation ...
+Wavelength: 0/0 ... 
+Mode: 0/0 ... 
+Measured unprobed Inorm (Corr / Score): 7.23e-06 	8.11e-06
+Chosen probe intensity: 5.51e-05
+Actual Probe 0+ Contrast is: 1.08e-05
+Actual Probe 0- Contrast is: 1.08e-05
+Actual Probe 1+ Contrast is: 1.17e-05
+Actual Probe 1- Contrast is: 1.03e-05
+Actual Probe 2+ Contrast is: 1.06e-05
+Actual Probe 2- Contrast is: 9.29e-06
+*** Mean measured Inorm for probe #0  =	4.014e-06
+*** Mean measured Inorm for probe #1  =	4.512e-06
+*** Mean measured Inorm for probe #2  =	3.192e-06
+116 of 730 pixels were given zero probe amplitude.
+Completed pairwise probing estimation.
+Complex projection of deltaE is 1.94    for subband 0/0
+Complex correlation of deltaE is 0.41    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		8.95e-04	4.38e-04	8.99e-05	1.50e-05	4.67e-06	3.98e-06	3.94e-06	3.98e-06	
+Model-based grid search expects log10reg, = -3.0,	 dmfac = 0.50,	 3.94e-06 normalized intensity.
+ DM1 P-V in volts: 52.603
+ DM2 P-V in volts: 59.111
+RMS surface of DM1 = 5.0 nm
+RMS surface of DM2 = 5.5 nm
+Previous Measured NI:			 7.23e-06 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_pwp-bp_snippet.pkl  ...done.
+
+Iteration: 7 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.18% 	at separation = (-7.0, 0.0) lambda0/D.
+Computing control Jacobian matrices in parallel...done.
+Elapsed: 24.612099170684814
+Estimating electric field with batch process estimation ...
+Wavelength: 0/0 ... 
+Mode: 0/0 ... 
+Measured unprobed Inorm (Corr / Score): 6.82e-06 	7.68e-06
+Chosen probe intensity: 5.54e-05
+Actual Probe 0+ Contrast is: 1.05e-05

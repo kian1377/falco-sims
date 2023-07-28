@@ -36,7 +36,7 @@ source ~/.bashrc
 conda activate gpu311env
 cd ~/Documents/falco-sims
 python run_hlc_falco.py
-# python run_spc_falco.py
+### python run_spc_falco.py
 
 
 

@@ -59,11 +59,11 @@ def setup_mp(Nitr=5,
     mp.estimator = estimator
     mp.est = falco.config.Object()
     mp.est.probe = falco.config.Probe()
-    mp.est.probe.Npairs = 2  # Number of pair-wise probe PAIRS to use.
+    mp.est.probe.Npairs = 3  # Number of pair-wise probe PAIRS to use.
     mp.est.probe.whichDM = 1  # Which DM # to use for probing. 1 or 2. Default is 1
-    mp.est.probe.radius = 12  # Max x/y extent of probed region [actuators].
-    mp.est.probe.xOffset = 0  # offset of probe center in x [actuators]. Use to avoid central obscurations.
-    mp.est.probe.yOffset = 14  # offset of probe center in y [actuators]. Use to avoid central obscurations.
+    mp.est.probe.radius = 11  # Max x/y extent of probed region [actuators].
+    mp.est.probe.xOffset = 14  # offset of probe center in x [actuators]. Use to avoid central obscurations.
+    mp.est.probe.yOffset = 0  # offset of probe center in y [actuators]. Use to avoid central obscurations.
     mp.est.probe.axis = 'alternate'  # which axis to have the phase discontinuity along [x or y or xy/alt/alternate]
     mp.est.probe.gainFudge = 1
 
@@ -100,8 +100,8 @@ def setup_mp(Nitr=5,
     # # GRID SEARCH EFC DEFAULTS
     # WFSC Iterations and Control Matrix Relinearization
     mp.Nitr = Nitr  # Number of estimation+control iterations to perform
-#     mp.relinItrVec = np.arange(0, mp.Nitr)  # Which correction iterations at which to re-compute the control Jacobian [1-D ndarray]
-    mp.relinItrVec = np.arange(0, Nitr, 5)
+    mp.relinItrVec = np.arange(0, Nitr)  # Which correction iterations at which to re-compute the control Jacobian [1-D ndarray]
+#     mp.relinItrVec = np.arange(0, Nitr, 5)
     mp.dm_ind = np.array([1, 2]) # Which DMs to use [1-D ndarray]
 
 

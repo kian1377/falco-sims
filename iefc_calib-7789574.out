@@ -1,0 +1,21 @@
+<IPython.core.display.HTML object>
+<IPython.core.display.HTML object>
+<IPython.core.display.HTML object>
+<IPython.core.display.HTML object>
+/home/u21/kianmilani/Documents/falco-python/falco/config
+spc_wfov_825_30itr_pwp
+Figure(1250x500)
+Running idealized phase retrieval ...
+Figure(1250x500)
+Figure(1250x500)
+Figure(500x500)
+Traceback (most recent call last):
+  File "/home/u21/kianmilani/Documents/falco-sims/run_spc_falco.py", line 59, in <module>
+    out = falco.setup.flesh_out_workspace(mp)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u21/kianmilani/Documents/falco-python/falco/setup.py", line 31, in flesh_out_workspace
+    verify_key_values(mp)
+  File "/home/u21/kianmilani/Documents/falco-python/falco/setup.py", line 109, in verify_key_values
+    raise ValueError('%s is not an allowed value of mp.estimator.',
+ValueError: ('%s is not an allowed value of mp.estimator.', 'pwp')
+Detailed performance metrics for this job will be available at https://metrics.hpc.arizona.edu/#job_viewer?action=show&realm=SUPREMM&resource_id=73&local_job_id=7789574 by 8am on 2023/07/29.
