@@ -23,7 +23,7 @@ roman_dir = Path(os.path.dirname(falco_dir))/'roman'
 import misc_funs as misc
 
 def ipr(mp):# %% Perform an idealized phase retrieval (get the E-field directly)
-
+    print('Running idealized phase retrieval ...')
 
     optval = copy.copy(mp.full)
     optval.source_x_offset = 0

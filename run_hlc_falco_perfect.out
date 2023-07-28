@@ -1,0 +1,675 @@
+<IPython.core.display.HTML object>
+<IPython.core.display.HTML object>
+<IPython.core.display.HTML object>
+<IPython.core.display.HTML object>
+/home/u21/kianmilani/Documents/falco-python/falco/config
+Figure(500x500)
+hlc_575_30itr_perfect
+Figure(1250x500)
+Figure(1250x500)
+Figure(1250x500)
+Figure(1250x500)
+Figure(500x500)
+ Using 1 discrete wavelength(s) in each of 1 sub-bandpasses over a 1.0% total bandpass 
+
+Sub-bandpasses are centered at wavelengths [nm]:	 [575.]
+  Influence function padded from 84 to 84 points for A.S. propagation.
+Computing datacube of DM influence functions... done.
+  Influence function padded from 84 to 84 points for A.S. propagation.
+Computing datacube of DM influence functions... done.
+
+Beginning Trial 1 of Series 1.
+
+DM 1-to-2 Fresnel number (using radius) = 932.0391304347827
+Iteration: 0 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.52% 	at separation = (-7.0, 0.0) lambda0/D.
+Computing control Jacobian matrices in parallel...done.
+Elapsed: 31.893643140792847
+Weeding out weak actuators from the control Jacobian...
+  DM1: 1775/2304 (77.04%) actuators kept for Jacobian
+  DM2: 1782/2304 (77.34%) actuators kept for Jacobian
+[Getting updated summed image]	Elapsed: 17.20123267173767
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		2.01e-05	1.06e-05	8.08e-06	7.19e-06	6.94e-06	6.98e-06	7.17e-06	7.54e-06	
+Model-based grid search expects log10reg, = -4.0,	 dmfac = 0.50,	 6.94e-06 normalized intensity.
+ DM1 P-V in volts: 22.875
+ DM2 P-V in volts: 54.028
+RMS surface of DM1 = 3.2 nm
+RMS surface of DM2 = 4.2 nm
+Previous Measured NI:			 3.00e-05 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 1 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.51% 	at separation = (-7.0, 0.0) lambda0/D.
+[Getting updated summed image]	Elapsed: 17.501013040542603
+Complex projection of deltaE is 0.98    for subband 0/0
+Complex correlation of deltaE is 0.99    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		9.70e-06	4.40e-06	2.87e-06	2.15e-06	1.82e-06	1.70e-06	1.69e-06	1.78e-06	
+Model-based grid search expects log10reg, = -3.0,	 dmfac = 0.50,	 1.69e-06 normalized intensity.
+ DM1 P-V in volts: 31.906
+ DM2 P-V in volts: 69.177
+RMS surface of DM1 = 4.4 nm
+RMS surface of DM2 = 5.7 nm
+Previous Measured NI:			 7.37e-06 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 2 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.45% 	at separation = (-7.0, 0.0) lambda0/D.
+[Getting updated summed image]	Elapsed: 17.90412211418152
+Complex projection of deltaE is 0.99    for subband 0/0
+Complex correlation of deltaE is 0.99    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		5.00e-06	2.78e-06	1.87e-06	1.32e-06	6.73e-07	5.53e-07	5.12e-07	5.20e-07	
+Model-based grid search expects log10reg, = -3.0,	 dmfac = 0.50,	 5.12e-07 normalized intensity.
+ DM1 P-V in volts: 39.033
+ DM2 P-V in volts: 77.991
+RMS surface of DM1 = 5.3 nm
+RMS surface of DM2 = 6.7 nm
+Previous Measured NI:			 1.84e-06 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 3 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.40% 	at separation = (-7.0, 0.0) lambda0/D.
+[Getting updated summed image]	Elapsed: 19.2513370513916
+Complex projection of deltaE is 0.99    for subband 0/0
+Complex correlation of deltaE is 0.99    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		3.52e-06	1.95e-06	1.29e-06	8.66e-07	5.55e-07	2.70e-07	2.26e-07	2.14e-07	
+Model-based grid search expects log10reg, = -2.5,	 dmfac = 0.50,	 2.14e-07 normalized intensity.
+ DM1 P-V in volts: 42.448
+ DM2 P-V in volts: 82.705
+RMS surface of DM1 = 5.6 nm
+RMS surface of DM2 = 7.2 nm
+Previous Measured NI:			 5.64e-07 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 4 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.44% 	at separation = (-7.0, 0.0) lambda0/D.
+[Getting updated summed image]	Elapsed: 18.722100973129272
+Complex projection of deltaE is 0.99    for subband 0/0
+Complex correlation of deltaE is 0.99    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		2.97e-06	1.56e-06	1.03e-06	6.68e-07	3.99e-07	1.67e-07	1.31e-07	1.19e-07	
+Model-based grid search expects log10reg, = -2.5,	 dmfac = 0.50,	 1.19e-07 normalized intensity.
+ DM1 P-V in volts: 45.083
+ DM2 P-V in volts: 86.446
+RMS surface of DM1 = 5.9 nm
+RMS surface of DM2 = 7.6 nm
+Previous Measured NI:			 2.32e-07 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 5 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.42% 	at separation = (-7.0, 0.0) lambda0/D.
+Computing control Jacobian matrices in parallel...done.
+Elapsed: 24.309621572494507
+[Getting updated summed image]	Elapsed: 18.826311111450195
+Complex projection of deltaE is 0.98    for subband 0/0
+Complex correlation of deltaE is 0.98    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		6.03e-07	3.78e-07	2.21e-07	1.16e-07	6.59e-08	5.19e-08	5.15e-08	5.51e-08	
+Model-based grid search expects log10reg, = -3.0,	 dmfac = 0.50,	 5.15e-08 normalized intensity.
+ DM1 P-V in volts: 45.586
+ DM2 P-V in volts: 85.901
+RMS surface of DM1 = 6.1 nm
+RMS surface of DM2 = 7.7 nm
+Previous Measured NI:			 1.26e-07 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 6 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.42% 	at separation = (-7.0, 0.0) lambda0/D.
+[Getting updated summed image]	Elapsed: 18.020461797714233
+Complex projection of deltaE is 1.14    for subband 0/0
+Complex correlation of deltaE is 1.00    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		6.53e-07	4.01e-07	2.29e-07	1.13e-07	5.46e-08	3.50e-08	3.12e-08	3.19e-08	
+Model-based grid search expects log10reg, = -3.0,	 dmfac = 0.50,	 3.12e-08 normalized intensity.
+ DM1 P-V in volts: 46.056
+ DM2 P-V in volts: 85.471
+RMS surface of DM1 = 6.1 nm
+RMS surface of DM2 = 7.8 nm
+Previous Measured NI:			 5.44e-08 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 7 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.41% 	at separation = (-7.0, 0.0) lambda0/D.
+[Getting updated summed image]	Elapsed: 18.272709369659424
+Complex projection of deltaE is 1.11    for subband 0/0
+Complex correlation of deltaE is 0.97    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		7.22e-07	4.37e-07	2.48e-07	1.22e-07	5.50e-08	3.05e-08	2.43e-08	2.35e-08	
+Model-based grid search expects log10reg, = -2.5,	 dmfac = 0.50,	 2.35e-08 normalized intensity.
+ DM1 P-V in volts: 46.190
+ DM2 P-V in volts: 85.347
+RMS surface of DM1 = 6.2 nm
+RMS surface of DM2 = 7.8 nm
+Previous Measured NI:			 3.38e-08 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 8 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.41% 	at separation = (-7.0, 0.0) lambda0/D.
+[Getting updated summed image]	Elapsed: 18.887476921081543
+Complex projection of deltaE is 2.15    for subband 0/0
+Complex correlation of deltaE is 1.24    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		7.40e-07	4.39e-07	2.46e-07	1.19e-07	5.16e-08	2.69e-08	2.06e-08	1.98e-08	
+Model-based grid search expects log10reg, = -2.5,	 dmfac = 0.50,	 1.98e-08 normalized intensity.
+ DM1 P-V in volts: 46.316
+ DM2 P-V in volts: 85.512
+RMS surface of DM1 = 6.2 nm
+RMS surface of DM2 = 7.9 nm
+Previous Measured NI:			 2.45e-08 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 9 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.41% 	at separation = (-7.0, 0.0) lambda0/D.
+[Getting updated summed image]	Elapsed: 18.190417528152466
+Complex projection of deltaE is 1.92    for subband 0/0
+Complex correlation of deltaE is 0.99    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		7.61e-07	4.45e-07	2.47e-07	1.19e-07	5.02e-08	2.51e-08	1.86e-08	1.77e-08	
+Model-based grid search expects log10reg, = -2.5,	 dmfac = 0.50,	 1.77e-08 normalized intensity.
+ DM1 P-V in volts: 46.439
+ DM2 P-V in volts: 85.716
+RMS surface of DM1 = 6.3 nm
+RMS surface of DM2 = 7.9 nm
+Previous Measured NI:			 2.03e-08 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 10 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.41% 	at separation = (-7.0, 0.0) lambda0/D.
+Computing control Jacobian matrices in parallel...done.
+Elapsed: 24.271567583084106
+[Getting updated summed image]	Elapsed: 18.141868829727173
+Complex projection of deltaE is 0.14    for subband 0/0
+Complex correlation of deltaE is 0.15    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		2.48e-07	1.22e-07	5.55e-08	2.23e-08	1.23e-08	1.23e-08	1.41e-08	1.54e-08	
+Model-based grid search expects log10reg, = -4.0,	 dmfac = 0.50,	 1.23e-08 normalized intensity.
+ DM1 P-V in volts: 48.534
+ DM2 P-V in volts: 86.197
+RMS surface of DM1 = 6.5 nm
+RMS surface of DM2 = 8.1 nm
+Previous Measured NI:			 1.80e-08 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 11 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.33% 	at separation = (-7.0, 0.0) lambda0/D.
+[Getting updated summed image]	Elapsed: 18.989656448364258
+Complex projection of deltaE is 0.97    for subband 0/0
+Complex correlation of deltaE is 0.99    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		3.40e-07	1.88e-07	1.03e-07	4.86e-08	2.20e-08	1.42e-08	1.27e-08	1.27e-08	
+Model-based grid search expects log10reg, = -2.5,	 dmfac = 0.50,	 1.27e-08 normalized intensity.
+ DM1 P-V in volts: 48.552
+ DM2 P-V in volts: 86.436
+RMS surface of DM1 = 6.5 nm
+RMS surface of DM2 = 8.2 nm
+Previous Measured NI:			 2.37e-08 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 12 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.33% 	at separation = (-7.0, 0.0) lambda0/D.
+[Getting updated summed image]	Elapsed: 17.790033102035522
+Complex projection of deltaE is 0.89    for subband 0/0
+Complex correlation of deltaE is 0.98    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		3.42e-07	1.84e-07	9.72e-08	4.36e-08	1.80e-08	1.08e-08	9.68e-09	9.71e-09	
+Model-based grid search expects log10reg, = -3.0,	 dmfac = 0.50,	 9.68e-09 normalized intensity.
+ DM1 P-V in volts: 48.755
+ DM2 P-V in volts: 86.757
+RMS surface of DM1 = 6.6 nm
+RMS surface of DM2 = 8.2 nm
+Previous Measured NI:			 1.35e-08 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 13 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.33% 	at separation = (-7.0, 0.0) lambda0/D.
+[Getting updated summed image]	Elapsed: 17.93719506263733
+Complex projection of deltaE is 0.50    for subband 0/0
+Complex correlation of deltaE is 0.95    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		3.56e-07	1.90e-07	9.96e-08	4.42e-08	1.76e-08	9.96e-09	8.55e-09	8.45e-09	
+Model-based grid search expects log10reg, = -2.5,	 dmfac = 0.50,	 8.45e-09 normalized intensity.
+ DM1 P-V in volts: 48.788
+ DM2 P-V in volts: 86.903
+RMS surface of DM1 = 6.6 nm
+RMS surface of DM2 = 8.2 nm
+Previous Measured NI:			 1.08e-08 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 14 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.32% 	at separation = (-7.0, 0.0) lambda0/D.
+[Getting updated summed image]	Elapsed: 17.88875102996826
+Complex projection of deltaE is 0.81    for subband 0/0
+Complex correlation of deltaE is 0.98    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		3.60e-07	1.90e-07	9.81e-08	4.25e-08	1.62e-08	8.95e-09	7.72e-09	7.67e-09	
+Model-based grid search expects log10reg, = -2.5,	 dmfac = 0.50,	 7.67e-09 normalized intensity.
+ DM1 P-V in volts: 48.832
+ DM2 P-V in volts: 87.020
+RMS surface of DM1 = 6.6 nm
+RMS surface of DM2 = 8.2 nm
+Previous Measured NI:			 8.73e-09 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 15 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.32% 	at separation = (-7.0, 0.0) lambda0/D.
+Computing control Jacobian matrices in parallel...done.
+Elapsed: 25.362261295318604
+[Getting updated summed image]	Elapsed: 18.671623945236206
+Complex projection of deltaE is 0.68    for subband 0/0
+Complex correlation of deltaE is 0.97    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		1.27e-07	5.04e-08	2.05e-08	9.55e-09	5.99e-09	6.09e-09	6.70e-09	7.08e-09	
+Model-based grid search expects log10reg, = -4.0,	 dmfac = 0.50,	 5.99e-09 normalized intensity.
+ DM1 P-V in volts: 50.073
+ DM2 P-V in volts: 86.758
+RMS surface of DM1 = 6.8 nm
+RMS surface of DM2 = 8.4 nm
+Previous Measured NI:			 7.83e-09 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 16 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.30% 	at separation = (-7.0, 0.0) lambda0/D.
+[Getting updated summed image]	Elapsed: 18.06340217590332
+Complex projection of deltaE is 0.89    for subband 0/0
+Complex correlation of deltaE is 0.91    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		1.61e-07	7.47e-08	3.76e-08	1.95e-08	9.92e-09	6.88e-09	6.31e-09	6.27e-09	
+Model-based grid search expects log10reg, = -2.5,	 dmfac = 0.50,	 6.27e-09 normalized intensity.
+ DM1 P-V in volts: 50.032
+ DM2 P-V in volts: 86.849
+RMS surface of DM1 = 6.8 nm
+RMS surface of DM2 = 8.4 nm
+Previous Measured NI:			 1.09e-08 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 17 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.30% 	at separation = (-7.0, 0.0) lambda0/D.
+[Getting updated summed image]	Elapsed: 18.40691566467285
+Complex projection of deltaE is 0.90    for subband 0/0
+Complex correlation of deltaE is 0.99    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		1.60e-07	7.29e-08	3.51e-08	1.71e-08	8.03e-09	5.39e-09	5.00e-09	5.02e-09	
+Model-based grid search expects log10reg, = -3.0,	 dmfac = 0.50,	 5.00e-09 normalized intensity.
+ DM1 P-V in volts: 50.122
+ DM2 P-V in volts: 86.920
+RMS surface of DM1 = 6.8 nm
+RMS surface of DM2 = 8.4 nm
+Previous Measured NI:			 6.58e-09 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 18 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.29% 	at separation = (-7.0, 0.0) lambda0/D.
+[Getting updated summed image]	Elapsed: 18.220126628875732
+Complex projection of deltaE is 0.62    for subband 0/0
+Complex correlation of deltaE is 1.02    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		1.62e-07	7.41e-08	3.55e-08	1.71e-08	7.81e-09	5.04e-09	4.58e-09	4.56e-09	
+Model-based grid search expects log10reg, = -2.5,	 dmfac = 0.50,	 4.56e-09 normalized intensity.
+ DM1 P-V in volts: 50.132
+ DM2 P-V in volts: 86.958
+RMS surface of DM1 = 6.8 nm
+RMS surface of DM2 = 8.5 nm
+Previous Measured NI:			 5.64e-09 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 19 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.29% 	at separation = (-7.0, 0.0) lambda0/D.
+[Getting updated summed image]	Elapsed: 19.119044065475464
+Complex projection of deltaE is 0.82    for subband 0/0
+Complex correlation of deltaE is 0.98    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		1.62e-07	7.41e-08	3.50e-08	1.63e-08	7.21e-09	4.60e-09	4.22e-09	4.22e-09	
+Model-based grid search expects log10reg, = -3.0,	 dmfac = 0.50,	 4.22e-09 normalized intensity.
+ DM1 P-V in volts: 50.249
+ DM2 P-V in volts: 86.978
+RMS surface of DM1 = 6.9 nm
+RMS surface of DM2 = 8.5 nm
+Previous Measured NI:			 4.68e-09 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 20 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.29% 	at separation = (-7.0, 0.0) lambda0/D.
+Computing control Jacobian matrices in parallel...done.
+Elapsed: 24.31985855102539
+[Getting updated summed image]	Elapsed: 18.40688920021057
+Complex projection of deltaE is 0.43    for subband 0/0
+Complex correlation of deltaE is 0.65    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		8.67e-08	2.93e-08	9.09e-09	4.47e-09	3.44e-09	3.54e-09	3.79e-09	3.92e-09	
+Model-based grid search expects log10reg, = -4.0,	 dmfac = 0.50,	 3.44e-09 normalized intensity.
+ DM1 P-V in volts: 51.300
+ DM2 P-V in volts: 86.464
+RMS surface of DM1 = 7.0 nm
+RMS surface of DM2 = 8.6 nm
+Previous Measured NI:			 4.44e-09 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 21 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.27% 	at separation = (-7.0, 0.0) lambda0/D.
+[Getting updated summed image]	Elapsed: 19.08165717124939
+Complex projection of deltaE is 0.92    for subband 0/0
+Complex correlation of deltaE is 0.81    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		1.09e-07	4.15e-08	1.52e-08	7.54e-09	4.64e-09	3.76e-09	3.60e-09	3.60e-09	
+Model-based grid search expects log10reg, = -2.5,	 dmfac = 0.50,	 3.60e-09 normalized intensity.
+ DM1 P-V in volts: 51.408
+ DM2 P-V in volts: 86.495
+RMS surface of DM1 = 7.0 nm
+RMS surface of DM2 = 8.6 nm
+Previous Measured NI:			 5.99e-09 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 22 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.27% 	at separation = (-7.0, 0.0) lambda0/D.
+[Getting updated summed image]	Elapsed: 19.28695321083069
+Complex projection of deltaE is 0.97    for subband 0/0
+Complex correlation of deltaE is 1.00    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		1.07e-07	4.07e-08	1.43e-08	6.52e-09	3.76e-09	3.03e-09	2.95e-09	2.97e-09	
+Model-based grid search expects log10reg, = -3.0,	 dmfac = 0.50,	 2.95e-09 normalized intensity.
+ DM1 P-V in volts: 51.754
+ DM2 P-V in volts: 86.504
+RMS surface of DM1 = 7.0 nm
+RMS surface of DM2 = 8.6 nm
+Previous Measured NI:			 3.75e-09 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 23 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.27% 	at separation = (-7.0, 0.0) lambda0/D.
+[Getting updated summed image]	Elapsed: 18.41357135772705
+Complex projection of deltaE is 0.60    for subband 0/0
+Complex correlation of deltaE is 1.00    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		1.08e-07	4.15e-08	1.45e-08	6.44e-09	3.58e-09	2.81e-09	2.72e-09	2.73e-09	
+Model-based grid search expects log10reg, = -3.0,	 dmfac = 0.50,	 2.72e-09 normalized intensity.
+ DM1 P-V in volts: 52.088
+ DM2 P-V in volts: 86.556
+RMS surface of DM1 = 7.0 nm
+RMS surface of DM2 = 8.6 nm
+Previous Measured NI:			 3.17e-09 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 24 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.21% 	at separation = (-7.0, 0.0) lambda0/D.
+[Getting updated summed image]	Elapsed: 18.2494113445282
+Complex projection of deltaE is 0.44    for subband 0/0
+Complex correlation of deltaE is 1.01    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		1.10e-07	4.24e-08	1.48e-08	6.45e-09	3.48e-09	2.67e-09	2.56e-09	2.57e-09	
+Model-based grid search expects log10reg, = -3.0,	 dmfac = 0.50,	 2.56e-09 normalized intensity.
+ DM1 P-V in volts: 52.410
+ DM2 P-V in volts: 86.599
+RMS surface of DM1 = 7.0 nm
+RMS surface of DM2 = 8.6 nm
+Previous Measured NI:			 2.87e-09 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 25 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.21% 	at separation = (-7.0, 0.0) lambda0/D.
+Computing control Jacobian matrices in parallel...done.
+Elapsed: 25.414756774902344
+[Getting updated summed image]	Elapsed: 18.2428081035614
+Complex projection of deltaE is 0.32    for subband 0/0
+Complex correlation of deltaE is 0.83    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		6.52e-08	2.00e-08	4.85e-09	2.28e-09	2.09e-09	2.24e-09	2.36e-09	2.42e-09	
+Model-based grid search expects log10reg, = -4.0,	 dmfac = 0.50,	 2.09e-09 normalized intensity.
+ DM1 P-V in volts: 54.286
+ DM2 P-V in volts: 86.651
+RMS surface of DM1 = 7.1 nm
+RMS surface of DM2 = 8.7 nm
+Previous Measured NI:			 2.68e-09 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 26 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.14% 	at separation = (-7.0, 0.0) lambda0/D.
+[Getting updated summed image]	Elapsed: 18.119362831115723
+Complex projection of deltaE is 0.83    for subband 0/0
+Complex correlation of deltaE is 0.60    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		8.05e-08	2.76e-08	7.58e-09	3.19e-09	2.34e-09	2.22e-09	2.24e-09	2.26e-09	
+Model-based grid search expects log10reg, = -3.5,	 dmfac = 0.50,	 2.22e-09 normalized intensity.
+ DM1 P-V in volts: 54.934
+ DM2 P-V in volts: 86.678
+RMS surface of DM1 = 7.2 nm
+RMS surface of DM2 = 8.7 nm
+Previous Measured NI:			 3.43e-09 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 27 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.14% 	at separation = (-7.0, 0.0) lambda0/D.
+[Getting updated summed image]	Elapsed: 19.1374728679657
+Complex projection of deltaE is 0.45    for subband 0/0
+Complex correlation of deltaE is 1.09    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		8.47e-08	2.97e-08	8.23e-09	3.23e-09	2.18e-09	1.99e-09	1.97e-09	1.98e-09	
+Model-based grid search expects log10reg, = -3.0,	 dmfac = 0.50,	 1.97e-09 normalized intensity.
+ DM1 P-V in volts: 55.140
+ DM2 P-V in volts: 86.695
+RMS surface of DM1 = 7.2 nm
+RMS surface of DM2 = 8.7 nm
+Previous Measured NI:			 2.77e-09 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 28 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.13% 	at separation = (-7.0, 0.0) lambda0/D.
+[Getting updated summed image]	Elapsed: 18.50203537940979
+Complex projection of deltaE is 0.87    for subband 0/0
+Complex correlation of deltaE is 1.02    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		8.51e-08	3.00e-08	8.19e-09	3.03e-09	1.96e-09	1.77e-09	1.77e-09	1.78e-09	
+Model-based grid search expects log10reg, = -3.0,	 dmfac = 0.50,	 1.77e-09 normalized intensity.
+ DM1 P-V in volts: 55.342
+ DM2 P-V in volts: 86.707
+RMS surface of DM1 = 7.2 nm
+RMS surface of DM2 = 8.7 nm
+Previous Measured NI:			 2.11e-09 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Iteration: 29 / 29
+Zernike modes (Noll indexing) used in this Jacobian:	[1]
+DMs to be used in this iteration = [ 1 2 ]
+Core throughput within the half-max isophote(s) = 7.13% 	at separation = (-7.0, 0.0) lambda0/D.
+[Getting updated summed image]	Elapsed: 19.162123680114746
+Complex projection of deltaE is 0.69    for subband 0/0
+Complex correlation of deltaE is 1.01    for subband 0/0
+Using the Jacobian to make other matrices...done.
+Control beginning ...
+Scaling factor:		0.50		0.50		0.50		0.50		0.50		0.50		0.50		0.50		
+log10reg:    		-6.0		-5.5		-5.0		-4.5		-4.0		-3.5		-3.0		-2.5		
+Inorm:       		8.59e-08	3.05e-08	8.30e-09	2.97e-09	1.86e-09	1.67e-09	1.67e-09	1.68e-09	
+Model-based grid search expects log10reg, = -3.0,	 dmfac = 0.50,	 1.67e-09 normalized intensity.
+ DM1 P-V in volts: 55.538
+ DM2 P-V in volts: 86.715
+RMS surface of DM1 = 7.2 nm
+RMS surface of DM2 = 8.8 nm
+Previous Measured NI:			 1.85e-09 
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl  ...done.
+
+Core throughput within the half-max isophote(s) = 7.13% 	at separation = (-7.0, 0.0) lambda0/D.
+
+Saving data snippet to:
+	/home/u21/kianmilani/Documents/falco-python/data/brief/hlc_575_30itr_perfect_snippet.pkl...done.
+
+Entire workspace NOT saved because mp.flagSaveWS==False
+*** END OF WFSC LOOP ***
+Saved data to:  results/hlc_575_30itr_perfect_mp_20230727.pkl
+Saved data to:  results/hlc_575_30itr_perfect_out_20230727.pkl

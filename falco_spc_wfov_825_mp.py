@@ -23,7 +23,8 @@ roman_dir = Path(os.path.dirname(falco_dir))/'roman'
 import misc_funs as misc
 from imshows import *
 
-def setup_mp():
+def setup_mp(Nitr=5, 
+             estimator='perfect'):
 
     mp = falco.config.ModelParameters()
     mp.compact = falco.config.Object()
@@ -74,9 +75,9 @@ def setup_mp():
     # Estimator Options:
 #     - 'perfect' for exact numerical answer from full model
     # - 'pwp-bp' for pairwise probing with batch process estimation
-    mp.estimator = 'perfect'
+#     mp.estimator = 'perfect'
 #     mp.estimator = 'pwp-bp'
-
+    mp.estimator = estimator
     # Pairwise probing:
     mp.est = falco.config.Object()
     mp.est.probe = falco.config.Probe()
@@ -127,9 +128,10 @@ def setup_mp():
 
     # # GRID SEARCH EFC DEFAULTS
     # WFSC Iterations and Control Matrix Relinearization
-    mp.Nitr = 10  # Number of estimation+control iterations to perform
+    mp.Nitr = Nitr  # Number of estimation+control iterations to perform
 #     mp.relinItrVec = np.arange(0, mp.Nitr) #1:mp.Nitr;  # Which correction iterations at which to re-compute the control Jacobian [1-D ndarray]
-    mp.relinItrVec = np.array([0])
+#     mp.relinItrVec = np.array([0])
+    mp.relinItrVec = np.arange(0, Nitr, 5)
     mp.dm_ind = np.array([1, 2]) # Which DMs to use [1-D ndarray]
 
     # # PLANNED SEARCH EFC DEFAULTS     

@@ -23,7 +23,8 @@ roman_dir = Path(os.path.dirname(falco_dir))/'roman'
 import misc_funs as misc
 from imshows import *
 
-def setup_mp():
+def setup_mp(Nitr=5, 
+             estimator='perfect'):
     mp = falco.config.ModelParameters()
     mp.compact = falco.config.Object()
     mp.full = falco.config.Object()
@@ -53,8 +54,9 @@ def setup_mp():
     mp.source_y_offset_norm = 0  # y location [lambda_c/D] in dark hole at which to compute intensity normalization
 
     # Choose E-field estimator
-    mp.estimator = 'perfect' # uses exact computed E-field
+#     mp.estimator = 'perfect' # uses exact computed E-field
 #     mp.estimator = 'pwp-bp' # uses PWP to estimate E-field
+    mp.estimator = estimator
     mp.est = falco.config.Object()
     mp.est.probe = falco.config.Probe()
     mp.est.probe.Npairs = 2  # Number of pair-wise probe PAIRS to use.
@@ -97,9 +99,9 @@ def setup_mp():
 
     # # GRID SEARCH EFC DEFAULTS
     # WFSC Iterations and Control Matrix Relinearization
-    mp.Nitr = 20  # Number of estimation+control iterations to perform
+    mp.Nitr = Nitr  # Number of estimation+control iterations to perform
 #     mp.relinItrVec = np.arange(0, mp.Nitr)  # Which correction iterations at which to re-compute the control Jacobian [1-D ndarray]
-    mp.relinItrVec = np.array([0, 5, 10, 15])
+    mp.relinItrVec = np.arange(0, Nitr, 5)
     mp.dm_ind = np.array([1, 2]) # Which DMs to use [1-D ndarray]
 
 
@@ -277,31 +279,6 @@ def setup_mp():
     imshow1(np.angle(mp.compact.fpmCube[:, :, si]), cmap='twilight')
     
     return mp
-
-
-def snap(mp, 
-         use_fpm=True,
-         dm1=np.zeros((48,48)), 
-         dm2=np.zeros((48,48)), 
-         npsf=64):
-    lambda_um = mp.lambda0*1e6
-    
-    options = {'cor_type':mp.full.cor_type,
-               'final_sampling_lam0':mp.full.final_sampling_lam0, 
-               'source_x_offset':0,
-               'use_errors': mp.full.use_errors,
-               'use_fpm':use_fpm,
-#                'use_lens_errors':mp.full.use_lens_errors,
-               'use_dm1':1, 'dm1_m':dm1_m, 
-               'use_dm2':1, 'dm2_m':dm2_m,
-#                'use_field_stop':mp.full.use_field_stop, 
-               'field_stop_radius_lam0': mp.full.field_stop_radius_lam0,
-               'polaxis':mp.full.polaxis,
-              }
-    
-    psf, sampling = proper.prop_run('roman_phasec', lambda_um, npsf, QUIET=False, PASSVALUE=options)
-    image = np.abs(psf)**2
-    return image
 
 
 
