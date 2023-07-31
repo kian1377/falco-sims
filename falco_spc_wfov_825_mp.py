@@ -129,9 +129,9 @@ def setup_mp(Nitr=5,
     # # GRID SEARCH EFC DEFAULTS
     # WFSC Iterations and Control Matrix Relinearization
     mp.Nitr = Nitr  # Number of estimation+control iterations to perform
-#     mp.relinItrVec = np.arange(0, mp.Nitr) #1:mp.Nitr;  # Which correction iterations at which to re-compute the control Jacobian [1-D ndarray]
+    mp.relinItrVec = np.arange(0, mp.Nitr) # Which correction iterations at which to re-compute the control Jacobian [1-D ndarray]
 #     mp.relinItrVec = np.array([0])
-    mp.relinItrVec = np.arange(0, Nitr, 5)
+#     mp.relinItrVec = np.arange(0, Nitr, 5)
     mp.dm_ind = np.array([1, 2]) # Which DMs to use [1-D ndarray]
 
     # # PLANNED SEARCH EFC DEFAULTS     
